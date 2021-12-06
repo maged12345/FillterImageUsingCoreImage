@@ -18,16 +18,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QbH-ia-EPE">
                                 <rect key="frame" x="20" y="116" width="375" height="596"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gDG-3U-bLu">
-                                        <rect key="frame" x="10" y="10" width="355" height="576"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gDG-3U-bLu">
+                                        <rect key="frame" x="5" y="7" width="365" height="582"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="gDG-3U-bLu" firstAttribute="top" secondItem="QbH-ia-EPE" secondAttribute="top" constant="10" id="0nI-xY-1vz"/>
-                                    <constraint firstAttribute="trailing" secondItem="gDG-3U-bLu" secondAttribute="trailing" constant="10" id="3gg-pm-UCE"/>
-                                    <constraint firstItem="gDG-3U-bLu" firstAttribute="leading" secondItem="QbH-ia-EPE" secondAttribute="leading" constant="10" id="5rx-ys-7mY"/>
-                                    <constraint firstAttribute="bottom" secondItem="gDG-3U-bLu" secondAttribute="bottom" constant="10" id="jpJ-uh-757"/>
+                                    <constraint firstAttribute="bottom" secondItem="gDG-3U-bLu" secondAttribute="bottom" constant="7" id="JkD-Qd-2TM"/>
+                                    <constraint firstAttribute="trailing" secondItem="gDG-3U-bLu" secondAttribute="trailing" constant="5" id="cU6-my-SHt"/>
+                                    <constraint firstItem="gDG-3U-bLu" firstAttribute="leading" secondItem="QbH-ia-EPE" secondAttribute="leading" constant="5" id="dSW-U3-ZRo"/>
+                                    <constraint firstItem="gDG-3U-bLu" firstAttribute="top" secondItem="QbH-ia-EPE" secondAttribute="top" constant="7" id="uLi-pJ-sBR"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="vLr-Hl-Uu7">
