@@ -64,13 +64,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		26815B112764C7F500291F35 /* Assets and PList file */ = {
+		26815B112764C7F500291F35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				26EC4B3C275E672200F18E32 /* Assets.xcassets */,
 				26EC4B41275E672200F18E32 /* Info.plist */,
 			);
-			path = "Assets and PList file";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		26EC4B27275E672000F18E32 = {
@@ -97,7 +97,7 @@
 				26815B102764BFC700291F35 /* Model */,
 				26815B0C2764B68C00291F35 /* Controller */,
 				26815B0D2764B6BE00291F35 /* View */,
-				26815B112764C7F500291F35 /* Assets and PList file */,
+				26815B112764C7F500291F35 /* Resources */,
 			);
 			path = "Filter Image Demo";
 			sourceTree = "<group>";
@@ -322,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Filter Image Demo/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "Filter Image Demo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Filter Image Demo/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "Filter Image Demo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

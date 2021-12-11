@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreImage
-
+//initial
 class ViewController: UIViewController {
     
     @IBOutlet weak var intenditySlider: UISlider!
