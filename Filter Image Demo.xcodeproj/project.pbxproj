@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26815B0F2764B97A00291F35 /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26815B0E2764B97A00291F35 /* FilterManager.swift */; };
 		26EC4B34275E672000F18E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC4B33275E672000F18E32 /* AppDelegate.swift */; };
 		26EC4B36275E672000F18E32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC4B35275E672000F18E32 /* SceneDelegate.swift */; };
 		26EC4B38275E672000F18E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC4B37275E672000F18E32 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26815B0E2764B97A00291F35 /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
 		26EC4B30275E672000F18E32 /* Filter Image Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filter Image Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC4B33275E672000F18E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26EC4B35275E672000F18E32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26815B0C2764B68C00291F35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26EC4B37275E672000F18E32 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		26815B0D2764B6BE00291F35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26EC4B39275E672000F18E32 /* Main.storyboard */,
+				26EC4B3E275E672200F18E32 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26815B102764BFC700291F35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26815B0E2764B97A00291F35 /* FilterManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		26EC4B27275E672000F18E32 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +85,10 @@
 			children = (
 				26EC4B33275E672000F18E32 /* AppDelegate.swift */,
 				26EC4B35275E672000F18E32 /* SceneDelegate.swift */,
-				26EC4B37275E672000F18E32 /* ViewController.swift */,
-				26EC4B39275E672000F18E32 /* Main.storyboard */,
+				26815B102764BFC700291F35 /* Model */,
+				26815B0C2764B68C00291F35 /* Controller */,
+				26815B0D2764B6BE00291F35 /* View */,
 				26EC4B3C275E672200F18E32 /* Assets.xcassets */,
-				26EC4B3E275E672200F18E32 /* LaunchScreen.storyboard */,
 				26EC4B41275E672200F18E32 /* Info.plist */,
 			);
 			path = "Filter Image Demo";
@@ -141,6 +168,7 @@
 				26EC4B38275E672000F18E32 /* ViewController.swift in Sources */,
 				26EC4B34275E672000F18E32 /* AppDelegate.swift in Sources */,
 				26EC4B36275E672000F18E32 /* SceneDelegate.swift in Sources */,
+				26815B0F2764B97A00291F35 /* FilterManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
