@@ -64,6 +64,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		26815B112764C7F500291F35 /* Assets and PList file */ = {
+			isa = PBXGroup;
+			children = (
+				26EC4B3C275E672200F18E32 /* Assets.xcassets */,
+				26EC4B41275E672200F18E32 /* Info.plist */,
+			);
+			path = "Assets and PList file";
+			sourceTree = "<group>";
+		};
 		26EC4B27275E672000F18E32 = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +97,7 @@
 				26815B102764BFC700291F35 /* Model */,
 				26815B0C2764B68C00291F35 /* Controller */,
 				26815B0D2764B6BE00291F35 /* View */,
-				26EC4B3C275E672200F18E32 /* Assets.xcassets */,
-				26EC4B41275E672200F18E32 /* Info.plist */,
+				26815B112764C7F500291F35 /* Assets and PList file */,
 			);
 			path = "Filter Image Demo";
 			sourceTree = "<group>";
